@@ -7,6 +7,10 @@ Allows rendering of templates in FastHTML using the excellent Jinja2 template en
  * FastHTML (Jeremy Howard) - https://www.fastht.ml/
  * Jinja2 (Palettes Project) - https://jinja.palletsprojects.com/
 
+## Usage
+
+Simply import the function and render.  It is so small (thanks to Palletes Project) 
+
 ```python
 # this is how to import FastHTML Python
 from fasthtml.common import *
@@ -32,6 +36,6 @@ if __name__ == '__main__':
     serve(host="0.0.0.0",port=5000)
 ```
 
-This plug-in (shim ) allows rendering of Jinja2 templates.  Supports 'import' and 'extends' directives of Jinja2.  However, it doesn't support all of Flask's goodies.
+This plug-in (shim) allows rendering of Jinja2 templates.  Supports 'import' and 'extends' directives of Jinja2.  However, it doesn't support all of Flask's goodies.
 
-Although it is not necessarily in the spirit of FastHTML to render an external template, they have written a good project that is surprisingly fun and very Pythonic.
+Although it is not necessarily in the spirit of FastHTML to render an external template, they have written a good project that is surprisingly fun to use and very Pythonic.
