@@ -33,3 +33,5 @@ if __name__ == '__main__':
 ```
 
 This plug-in (shim ) allows rendering of Jinja2 templates.  Supports 'import' and 'extends' directives of Jinja2.  However, it doesn't support all of Flask's goodies.
+
+Although it is not necessarily in the spirit of FastHTML to render an external template, they have written a good project that is surprisingly fun and very Pythonic.
